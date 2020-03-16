@@ -1,0 +1,22 @@
+{
+  "name": "workingwithparcel",
+  "version": "0.0.1",
+  "description": "Woohoo",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel *.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meganelndn/parcel-test.git"
+  },
+  "author": "Mégane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meganelndn/parcel-test/issues"
+  },
+  "homepage": "https://github.com/meganelndn/parcel-test#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
