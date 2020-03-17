@@ -1,11 +1,10 @@
-$bg-color: #333;
-$h1-color: #fff;
+@use "partials/vars";
 
 body {
-    background-color: $bg-color;
+    background-color: vars.$bg-color;
 
     h1 {
-        color: $h1-color;
+        color: vars.$h1-color;
 
         &:hover {
             color: blue;
