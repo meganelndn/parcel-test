@@ -1,0 +1,16 @@
+$bg-color: #333;
+$h1-color: #fff;
+
+body {
+    background-color: $bg-color;
+
+    h1 {
+        color: $h1-color;
+
+        &:hover {
+            color: blue;
+        }
+
+        ;
+    }
+}
