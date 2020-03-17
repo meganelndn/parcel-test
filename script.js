@@ -1,3 +1,7 @@
+import {
+    gallery
+} from "./modules/gallery"
+
 document.querySelector("h1").textContent = "Fooled you bitches!";
 
 const data = [{
@@ -8,8 +12,4 @@ const data = [{
     }
 ];
 
-data.forEach(d => {
-    const t = document.createElement("img");
-    t.src = "imgs/" + d.i;
-    document.body.appendChild(t);
-});
+gallery(data, document.body);
